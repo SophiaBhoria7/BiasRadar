@@ -24,7 +24,7 @@ const BreadcrumbList = React.forwardRef<
     )}
     {...props}
   />
-))
+)) 
 BreadcrumbList.displayName = "BreadcrumbList"
 
 const BreadcrumbItem = React.forwardRef<
